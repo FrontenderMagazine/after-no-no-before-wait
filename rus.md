@@ -36,9 +36,10 @@
  
     <div id="container">В этом контейнере есть не только этот текст</div>
 
-<style><!--
-#container_ex1_inline::before { content:"!!!!!"; font-style:italic; }#container_ex1_inline::after { content:"!!!!!"; font-weight:bold; }
---></style>
+<style>
+#container_ex1_inline::before { content:"!!!!!"; font-style:italic; }
+#container_ex1_inline::after { content:"!!!!!"; font-weight:bold; }
+</style>
 <p id="container_ex1_inline" style="background-color: yellow;">В этом контейнере есть не только этот текст</p>
 
 Круто, да?
